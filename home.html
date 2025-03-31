@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        body,html{
+            margin: 0%;
+            padding: 0%;
+            height: 100%;
+        }
+        .container{
+            background-color: rgb(0, 0, 0);
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            background-color: rgb(28, 39, 108);
+            text-align: center;
+            padding: 50px 75px;
+            border: 2px solid gold;
+            border-radius: 20px;
+        }
+        #box:hover{
+            transform: scale(1.05);
+        }
+        #profile{
+            height: 150px;
+            width: 150px;
+            border: 3px solid gold;
+            border-radius: 250px;
+        }
+        #profile:hover{
+            transform: scale(1.05);
+        }
+        #l, #g, #t{
+            height: 30px;
+            width: 30px;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 250px;
+        }
+        #l:hover, #g:hover, #t:hover{
+            transform: scale(1.05);
+        }
+        button{
+            height: 30px;
+            width: 100px;
+            background-color: aqua;
+            border-radius: 50px;
+        }
+        button:hover{
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Priyansh Singh Gautam</h2>
+            <img src="images/profile.jpg" alt="" id="profile"><br><br>
+            <a href="" id="port">
+                <button>View profile</button>
+            </a>
+            <a href="" id="proj">
+                <button>Projects</button>
+            </a><br><br>
+            <div class="log">
+                <img src="images/linkedin.png" alt="linkedin" id="l">
+                <img src="images/github.png" alt="github" id="g">
+                <img src="images/twitter.png" alt="github" id="t">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
